@@ -1,0 +1,10 @@
+.DS_Store
+logs
+.tags
+*.log
+npm-debug.log*
+**/node_modules/**
+.idea/
+.idea_modules/
+cache/
+**sublime**
