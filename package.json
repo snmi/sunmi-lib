@@ -1,0 +1,33 @@
+{
+    "name": "sunmi-lib",
+    "version": "1.0.0",
+    "description": "sui",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "scripts": {
+        "clean": "rm -rf dist",
+        "ts": "tsc -d"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@gitee.com:snmi/sunmi-components.git"
+    },
+    "keywords": [
+        "sui"
+    ],
+    "author": "sunmi",
+    "license": "BSD-2-Clause",
+    "dependencies": {
+        "lodash": "^4.17.4"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.74",
+        "@types/node": "^8.0.30",
+        "tslint": "^5.7.0",
+        "typescript": "^2.5.2"
+    }
+}

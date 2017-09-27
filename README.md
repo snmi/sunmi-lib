@@ -1,1 +1,1 @@
-# sunmi-lib
+# sunmi-components
