@@ -1,6 +1,6 @@
 {
     "name": "sunmi-lib",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "sui",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
@@ -22,13 +22,15 @@
     "author": "sunmi",
     "license": "BSD-2-Clause",
     "dependencies": {
-        "isomorphic-fetch": "^2.2.1",
         "lodash": "^4.17.4"
     },
     "devDependencies": {
         "@types/isomorphic-fetch": "0.0.34",
         "@types/lodash": "^4.14.74",
         "@types/node": "^8.0.30",
+        "@types/react-router": "~3.0.0",
+        "isomorphic-fetch": "^2.2.1",
+        "react-router": "~3.0.0",
         "tslint": "^5.7.0",
         "typescript": "^2.5.2"
     }
